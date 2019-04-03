@@ -19,10 +19,10 @@ function changeColor() {
 
 
 //Greeting
-var greetings = ['Oh hi', 'Bonjour', 'What\'s up pal']
+var greetings = ['Whales are endangered', 'Whales are big', 'Whales are beautiful', 'Whales are mammals', 'Whales are creatures of the open ocean', 'Whales are unable to survive on land', 'Whales are breathtaking', 'Whales are good swimmers', 'SAVE THE WHALES!']
 var container = document.querySelector('.greeting')
 
-setTimeout(changeGreeting, 2000)
+setTimeout(changeGreeting, 3000)
 
 function changeGreeting(){
 	container.textContent = greetings[count]
@@ -33,7 +33,7 @@ function changeGreeting(){
 	else{
 		count = 0
 	}
-setTimeout(changeGreeting, 2000)
+setTimeout(changeGreeting, 3000)
 }
 
 

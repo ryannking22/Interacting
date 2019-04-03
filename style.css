@@ -3,8 +3,8 @@ html {
 }
 
 body {
-	color: black;
-	background: white;
+	color: white;
+	background: orange;
 	font-family: helvetica, arial, sans-serif;
 	margin: 0;
 	padding: 0;
@@ -13,7 +13,7 @@ body {
 }
 .invert {
 	/*color: white;
-	background: black;*/
+	background: orange;*/
 	filter:invert(1);
 }
 
